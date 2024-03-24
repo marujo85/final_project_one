@@ -1,7 +1,7 @@
 <?php
 
-require_once ('./user.php');
-require_once ('./tweet.php');
+require_once ('./model/user.php');
+require_once ('./model/tweet.php');
 
 $user1 = new User ('Guido van Rossum', 'guido@yahoo.com', 'GuivanRos', '4everthebest');
 $user2 = new User ('Rasmus Lerdorf', 'lerras@yahoo.com', 'RasmusL', 'r18a1s19');
